@@ -16,5 +16,6 @@ Copy that URL, *replace the written IP address with localhost*
 
 On Colab click on connect to a local runtime, insert the edited URL and accept
 
+### Notes
 
 >Does not suppot GPU yet
