@@ -4,11 +4,11 @@ This is a Docker container to use as a local runtime for Google Colab
 
 
 ## Build Container
-docker build --tag guylevin/colab:latest .
+`docker build --tag guylevin/colab:latest .`
 
 
 ## Run Container
-docker run --rm -it  -p 8888:8888 --ipc=host guylevin/colab:latest
+`docker run --rm -it  -p 8888:8888 --ipc=host guylevin/colab:latest`
 
 
 When container will finish loading, it will print a URL  
